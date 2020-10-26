@@ -1,0 +1,18 @@
+bandeau {
+    text-align: left;
+}
+
+.menu {
+    text-align: center;
+    justify-content : space-between ;
+}
+
+.recette {
+    text-align: center;
+
+}
+
+.main {
+    justify-content: center;
+    text-align: center;
+}

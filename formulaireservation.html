@@ -3,7 +3,7 @@
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="solution-form.css" />
+  <link rel="stylesheet" type="text/css" href="formul.css" />
   <title>Réserver</title>
 </head>
 
@@ -34,6 +34,10 @@
       <input name="numero telephone" id="numero telephone" type="number size=" 30" maxlength="30" />
     </p>
     <p>
+      <label for="adresse" class="left">Adresse :</label>
+      <input name="adresse" id="adresse" type="text" size="30" maxlength="30" />
+    </p>
+    <p>
       <label for="email" class="left">Email: </label>
       <input name="email" id="email" type="email" 30" maxlength="30" />
     </p>
@@ -51,8 +55,7 @@
       <label class="left">Choix des plats du menu :</label>
       <input name="choix des plats du menu" id="entree" type="checkbox" /><label for="entree">Entrée</label>
       <input name="choix des plats du menu" id="plat" type="checkbox" /><label for="plat">Plat</label>
-      <input name="choix des plats du menu" id="dessert" type="checkbox" /><label
-        for="dessert">Dessert</label>
+      <input name="choix des plats du menu" id="dessert" type="checkbox" /><label  for="dessert">Dessert</label>
     </p>
     <p>
       <label for="commentaires" class="left">Commentaires : </label>
@@ -91,7 +94,7 @@
     p {
       width: 400px;
       padding-left: 305px;
-      text-align: left;
+      text-align: center;
       vertical-align: top;
     }
 
@@ -99,4 +102,8 @@
       float: left;
       margin-left: -305px;
       font-weight: bold;
+    }
+
+    body {
+      text-align: center;
     }
