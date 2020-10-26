@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="solution-form.css" />
+  <title>Réserver</title>
+</head>
+
+<body>
+
+  <h1>Réservation en ligne</h1>
+  <h2>Inscriptions</h2>
+  <form action="" method="get">
+
+    <p>
+      <label for="civilite" class="left">Civilité :</label>
+      <select name="civilite" id="civilite">
+        <option value="x">Madame</option>
+        <option value="y">Monsieur</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="nom" class="left">Nom :</label>
+      <input name="nom" id="nom" type="text" size="30" maxlength="30" />
+    </p>
+    <p>
+      <label for="prenom" class="left">Prénom :</label>
+      <input name="prenom" id="prenom" type="text" size="30" maxlength="30" />
+    </p>
+    <p>
+      <label for="numero telephone" class="left">Numéro de téléphone : </label>
+      <input name="numero telephone" id="numero telephone" type="number size=" 30" maxlength="30" />
+    </p>
+    <p>
+      <label for="email" class="left">Email: </label>
+      <input name="email" id="email" type="email" 30" maxlength="30" />
+    </p>
+
+    <p>
+      <label class="left">Choix du jour pour le menu :</label>
+      <input name="mardi" id="mardi" type="checkbox" /><label for="mardi">Mardi</label>
+      <input name="mercredi" id="mercredi" type="checkbox" /><label for="mercredi">Mercredi</label>
+      <input name="jeudi" id="jeudi" type="checkbox" /><label for="jeudi">Jeudi</label>
+      <input name="vendredi" id="vendredi" type="checkbox" /><label for="vendredi">Vendredi</label>
+      <input name="samedi" id="samedi" type="checkbox" /><label for="samedi">Samedi</label>
+      <input name="dimanche" id="dimanche" type="checkbox" /><label for="dimanche">Dimanche</label>
+    </p>
+    <p>
+      <label class="left">Choix des plats du menu :</label>
+      <input name="choix des plats du menu" id="entree" type="checkbox" /><label for="entree">Entrée</label>
+      <input name="choix des plats du menu" id="plat" type="checkbox" /><label for="plat">Plat</label>
+      <input name="choix des plats du menu" id="dessert" type="checkbox" /><label
+        for="dessert">Dessert</label>
+    </p>
+    <p>
+      <label for="commentaires" class="left">Commentaires : </label>
+      <textarea name="commentaires" id="commentaires" cols="50" rows="5"></textarea>
+  </form>
+  </p>
+
+
+  <style type="text/css">
+    /* /*Reset CSS*/
+
+    body {
+      width: 750px;
+    }
+
+    h1 {
+      color: black;
+      font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, cursive;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h2 {
+      color: rgba(0, 204, 255, 0.747);
+      font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, cursive;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    form {
+      border: 1px solid rgba(0, 195, 255, 0.788);
+      padding: 10px;
+      background-color: rgba(0, 255, 191, 0.63);
+    }
+
+    p {
+      width: 400px;
+      padding-left: 305px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    label.left {
+      float: left;
+      margin-left: -305px;
+      font-weight: bold;
+    }
